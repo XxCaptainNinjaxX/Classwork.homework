@@ -1,0 +1,14 @@
+
+# --- IDE Settings (VS Code / IntelliJ) ---
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+
+# --- JDKs (Stop openjdk from being uploaded) ---
+openjdk/
+openJdk-25/
+jdk*/
+jre*/
