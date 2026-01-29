@@ -5,8 +5,9 @@ public class Review{
       - class name = camel case
       
       */
-      for(int i=0; i<=10;i++)
-      System.out.println(i);
+      // for(int i=0; i<=10;i++)
+      // System.out.println(i);
+   System.out.println(1+13+"cs");
 
 
    }
