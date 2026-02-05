@@ -25,3 +25,17 @@ char - 16 bits, "a"
 
 
 ```
+
+## Chapter 3
+
+### Classes
+
+```Java
+//Objects creating
+
+   // assign, new, Constructior class, Paramters, close
+
+String t = new _____String("hello")______;
+
+
+```
