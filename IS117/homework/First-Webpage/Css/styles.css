@@ -1,0 +1,39 @@
+html {
+  background: aliceblue;
+  font-family: Elms Sans;
+}
+.container {
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+#myButton,
+.hiddenBtn {
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+  font-family: Elms Sans;
+  background-color: antiquewhite;
+}
+
+#myButton:hover {
+  transition: 0.3s;
+  transform: translateY(5px);
+  background-color: antiquewhite;
+}
+.hiddenBtn {
+  display: inline-block;
+  border-color: black;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+.hiddenBtn:hover {
+  transition: 0.3s;
+  background-color: rgb(179, 169, 155);
+}
+
+#myButton a {
+  text-decoration: none;
+  text-decoration-line: none;
+}
