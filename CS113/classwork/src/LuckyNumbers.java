@@ -3,7 +3,9 @@
 //
 // To generate three random "lucky" numbers
 // **************************************************
-import java.util.Random;
+import java.util.*;
+
+
 public class LuckyNumbers
 {
    public static void main (String[] args)

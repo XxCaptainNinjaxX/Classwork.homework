@@ -35,7 +35,22 @@ char - 16 bits, "a"
 
    // assign, new, Constructior class, Paramters, close
 
+   // classname var = classname();
+
 String t = new _____String("hello")______;
-
-
 ```
+
+## Creating a class
+
+- method within a class = function in java
+  - Method types:
+
+    ```java
+    void method1 (/*paramaters*/){
+
+    }
+    int method2 (/*paramaters*/){
+
+    }
+
+    ```
