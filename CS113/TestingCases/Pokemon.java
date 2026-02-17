@@ -1,4 +1,4 @@
-package CS113.Labs;
+package CS113.TestingCases;
 public class Pokemon {
    String str = "attack!";
    String name;

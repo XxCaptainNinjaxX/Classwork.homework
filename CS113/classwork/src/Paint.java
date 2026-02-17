@@ -27,5 +27,6 @@ public class Paint {
 
    //Print the length, width, and height of the room and the
    //number of gallons of paint needed.
+   scan.close();
    }
 }
