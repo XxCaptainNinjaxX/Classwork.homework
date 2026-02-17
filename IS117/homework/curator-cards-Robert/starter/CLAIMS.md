@@ -1,37 +1,37 @@
 # CLAIMS.md — Verification Log
 
-> Every factual claim in your Curator Cards should be verifiable. Log at least one claim per card here.
-> This is the habit that separates professionals from prompt-paste operators.
-
 ---
 
 ## Card 1: Bauhaus
 
 ### Claim 1
-- **Claim:**
-- **Source link(s):**
-- **Confidence:** High / Medium / Low
-- **Notes:**
+
+- **Claim:** The foundational curriculum at the Bauhaus was called the "Vorkurs."
+- **Source link(s):** https://www.moma.org/collection/terms/bauhaus
+- **Confidence:** High
+- **Notes:** Confirmed this was established by Johannes Itten and later taught by Moholy-Nagy.
 
 ---
 
 ## Card 2: Swiss Style
 
 ### Claim 1
-- **Claim:**
-- **Source link(s):**
-- **Confidence:** High / Medium / Low
-- **Notes:**
+
+- **Claim:** The movement relied heavily on the Akzidenz-Grotesk typeface before Helvetica was created.
+- **Source link(s):** https://designmuseum.org/design/typography
+- **Confidence:** High
+- **Notes:** Verified that this typeface predated Helvetica and was the standard for early Swiss grid posters.
 
 ---
 
-## Card 3: [New Wave / Grunge]
+## Card 3: Grunge
 
 ### Claim 1
-- **Claim:**
-- **Source link(s):**
-- **Confidence:** High / Medium / Low
-- **Notes:**
+
+- **Claim:** David Carson was the art director for _Ray Gun_ magazine.
+- **Source link(s):** https://www.aiga.org/design/aiga-medalist-david-carson
+- **Confidence:** High
+- **Notes:** Confirmed via his official AIGA biography.
 
 ---
 
@@ -39,4 +39,4 @@
 
 **One AI claim I didn't trust at first and how I verified it:**
 
-*[Write 2–3 sentences. What did the AI say? Why did it feel wrong? What source confirmed or denied it?]*
+When drafting the Grunge card, the AI originally claimed that David Carson "invented" the distressed typography style in 1992. That felt too absolute to be historically accurate. I verified it against the Cooper Hewitt design archives and realized he "popularized" it in _Ray Gun_, but the aesthetic roots began earlier in punk zines. I corrected the AI's phrasing in my final draft.
