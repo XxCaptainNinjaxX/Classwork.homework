@@ -7,54 +7,50 @@
 
 ## Prompt 1
 
-- **Phase:** Exploration / Production / Critique *(pick one)*
-- **Prompt name:** *(e.g., "Concept Map", "Draft Labels", "Expert Critique")*
+- **Phase:** Exploration
+- **Prompt name:** Concept Map & Vocabulary
 - **What I sent:**
 
-```
-[Paste the prompt you used here]
-```
+````
+I am writing museum labels for Bauhaus, Swiss Style, and 90s Grunge Typography. Give me a concept map connecting them and 5 highly specific domain vocabulary terms for each. Do not use generic words.```
 
 - **What I got back (summary):**
-
-*[1–3 sentences: what was useful, what was wrong, what you kept]*
-
+The AI provided an excellent evolutionary timeline showing how one movement reacted to the previous one, and gave me precise terms like "anti-legibility" and "objective photography."
 - **What I did with it:**
-
-*[Did you pin it? Discard it? Edit it? Promote it to AGENTS.md?]*
+I pinned the best terms into CURATOR_NOTES.md and promoted them to my AGENTS.md vocabulary table.
 
 ---
 
 ## Prompt 2
-
-- **Phase:**
-- **Prompt name:**
+- **Phase:** Production
+- **Prompt name:** Draft Swiss Card
 - **What I sent:**
+````
 
-```
-[Paste prompt here]
+Using my AGENTS.md constraints, write the body paragraph for the Swiss Style curator card. You must use the terms: mathematical grid, objective photography, asymmetric layout, Akzidenz-Grotesk, rational order. Keep it strictly between 80-120 words.
+
 ```
 
 - **What I got back (summary):**
-
+The AI wrote a 95-word paragraph that hit every constraint and utilized the vocabulary perfectly without sounding forced.
 - **What I did with it:**
+I pasted it directly into my index.html draft.
 
 ---
 
 ## Prompt 3
-
-- **Phase:**
-- **Prompt name:**
+- **Phase:** Critique
+- **Prompt name:** Expert Critique (David Carson)
 - **What I sent:**
 
 ```
-[Paste prompt here]
+
+Review my Curator Card about Grunge Typography as if you were David Carson. Critique the accuracy, vocabulary, and tone. Flag anything that expert would challenge.
+
 ```
-
 - **What I got back (summary):**
-
+The AI (acting as Carson) pointed out that I called Grunge "random and unstructured." It corrected me, noting that Grunge does have structure, it is just based on intuition rather than a mathematical grid.
 - **What I did with it:**
+I revised my HTML draft to say "ignored grid systems entirely" instead of "has no structure."
 
----
-
-*Add more entries as needed. Minimum 3 logged prompts for this assignment.*
+```
