@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Rodriguez - Developer</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Slabo+13px&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="developer-page">
+      <h1><strong>Developer </strong></h1>
+
+      <div class="page-intro">
+        <p>
+          For me, development is the only place where I can truly scratch my
+          creative itch. It's the one discipline where I can start with nothing
+          but a blank screen and build a tangible solution that solves a
+          real-world problem. However, I've realized that I don't just want to
+          write code in a vacuum. That being said,
+          <strong>my goal is to become a Solutions Engineer</strong>, combining
+          this creative drive with technical architecture to build products that
+          don't just work, but actually solve the user's problem.
+        </p>
+      </div>
+
+      <h2 class="section-title">Current projects</h2>
+
+      <div class="currentGrid">
+        <div class="card" id="learneant-card">
+          <img src="./Assets/LearneantSketch.jpg" alt="Learneant App Sketch" />
+          <p>Learneant App</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-modal" class="modal-overlay">
+      <div class="modal-content">
+        <button class="close-btn" id="close-modal">Close</button>
+        <h2>Learneant App (Productivity Hub)</h2>
+
+        <div class="split-layout">
+          <div class="left-pane">
+            <h3>The Problem</h3>
+            <p>
+              Students juggle multiple platforms for GPA calculation, tasks, and
+              scheduling, leading to missed deadlines and friction.
+            </p>
+            <h3>The Solution</h3>
+            <p>
+              A unified "Productivity Hub" that centralizes student tools into
+              one seamless dashboard.
+            </p>
+            <h3>The Impact (Receipt)</h3>
+            <p>
+              Shipped a fully responsive MVP with custom GPA calculation
+              algorithms to eliminate platform switching.
+            </p>
+          </div>
+
+          <div class="right-pane">
+            <h3>Tech Stack</h3>
+            <p>React, TypeScript, Next.JS, Electron, AWS (SQL), Django,</p>
+            <h3>Architecture & Challenges</h3>
+            <p>
+              Managing state across multiple tools. I implemented a modular
+              component architecture to ensure the GPA calculator and To-Do list
+              could update independently without breaking the global UI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

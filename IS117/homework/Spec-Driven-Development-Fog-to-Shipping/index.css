@@ -1,0 +1,136 @@
+body {
+  font-family: Elms Sans;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.page-intro {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+  color: #444;
+  line-height: 1.6;
+}
+
+.section-title {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+
+/* Grid and Glassmorphism Card */
+.currentGrid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  width: 200px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Modal Overlay Styles */
+.modal-overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-overlay.active {
+  display: flex; /* Shown when active class is added via JS */
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 700px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Split Screen Layout for Receipts */
+.split-layout {
+  display: flex;
+  gap: 40px;
+}
+
+.left-pane,
+.right-pane {
+  flex: 1;
+}
+
+.split-layout h3 {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.split-layout p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+For this assignment, I utilized a Spec-Driven Development workflow to architect and deploy a "Receipt-Driven" case study modal for my Productivity Hub (Learneant App) into my existing portfolio.
+ Instead of falling into the beginner's trap of prompting the AI to write the entire codebase on day one, I acted as the Project Manager while treating the AI as my Junior Developer.
+
+I began with Phase 0 (Exploration), intentionally staying out of the weeds to have the AI propose varying design directions and content architectures. 
+After evaluating the trade-offs, I converged on a "FinTech Builder" aesthetic that aligns with my major and locked in a split-layout content model highlighting both business value and technical execution.
+
+
+Next, we locked the Master Spec to establish strict boundaries,
+ensuring no "scope creep" would break my existing layout. 
+We then executed Phase 3 in a tightly controlled sprint (Sprint 001), 
+generating only the necessary HTML, CSS, and JS for the modal. 
+I then ran a critique cycle, manually patching the image paths and font variables to perfectly map to my glassmorphism theme. 
+Ultimately, this process taught me that an LLM's true power is unlocked not by letting it guess the final product,
+but by managing it through strict constraints, clear acceptance criteria, and a locked blueprint.
