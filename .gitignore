@@ -12,3 +12,4 @@ openjdk/
 openJdk-25/
 jdk*/
 jre*/
+node_modules

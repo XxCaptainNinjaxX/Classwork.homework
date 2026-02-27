@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/XxCaptainNinjaxX/Classwork.homework/issues"
   },
-  "homepage": "https://github.com/XxCaptainNinjaxX/Classwork.homework#readme"
+  "homepage": "https://github.com/XxCaptainNinjaxX/Classwork.homework#readme",
+  "devDependencies": {
+    "prettier": "3.8.1",
+    "prettier-plugin-java": "2.8.1"
+  }
 }
