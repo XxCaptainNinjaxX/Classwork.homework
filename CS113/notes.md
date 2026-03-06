@@ -26,7 +26,9 @@ char - 16 bits, "a"
 
 ```
 
-## Chapter 3
+---
+
+# Chapter 3
 
 ### Classes
 
@@ -40,17 +42,55 @@ char - 16 bits, "a"
 String t = new _____String("hello")______;
 ```
 
-## Creating a class
+### Creating a class
 
 - method within a class = function in java
-  - Method types:
+    - Method types:
 
-    ```java
-    void method1 (/*paramaters*/){
+        ```java
+        void method1(/*paramaters*/) {}
 
-    }
-    int method2 (/*paramaters*/){
+        int method2(/*paramaters*/) {}
+        ```
 
-    }
+---
 
-    ```
+# Chapter 6
+
+### Swtiches
+
+Usefule for nested if statments that need to be exact
+
+```Java
+
+switch (category)
+{
+
+case 10:
+  System.out.println("a perfect score. Well done.");
+  break;
+
+  case 9:
+  System.out.println("well above average. Excellent.");
+  break;
+
+  case 8:
+  System.out.println("above average. Nice job.");
+  break;
+
+  case 7:
+  System.out.println("average.");
+  break;
+
+  case 6:
+  System.out.println("below average. You should see the");
+  System.out.println("instructor to clarify the material "
+  + "presented in class.");
+  break;
+
+  default:
+  System.out.println("not passing.");
+}
+
+```
+# Chapter 7
