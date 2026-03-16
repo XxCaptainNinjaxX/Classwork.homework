@@ -93,4 +93,12 @@ case 10:
 }
 
 ```
-# Chapter 7
+
+# Chapter 8 Arrays
+
+```Java
+
+
+
+
+```
