@@ -98,6 +98,11 @@ case 10:
 
 ## 2d arrays
 
+### Paramaters
+
+primitive data paramter = sends a copy
+object data paramter = send a refrence to the originial
+
 'method overloading' -> multiple methods with same name but DIFFRENT paramaters
 
 ```Java
