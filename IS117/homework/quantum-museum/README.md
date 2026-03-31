@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Beyond Binary: The Evolution to Quantum Computing
 
-## Getting Started
+**IS 117 - Museum Exhibit Project**
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+"Beyond Binary" is an interactive digital museum exhibit exploring the large leap from classical microcomputing to the future of quantum technology. This exhibit guides users through three pivotal artifacts:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Moore's Law,
+- Intel 4004 Microprocessor,
+- Lastly, IBM Quantum System One.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design & Branding Strategy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To ensure this museum felt like a premium, educational experience, I applied these frameworks:
 
-## Learn More
+- **Design Style (Swiss Design):** The interface utilizes a clean, minimalist Swiss design approach. This includes strong grid alignments, high contrast, and a focus on typography to let the complex subject matter speak for itself without visual clutter.
 
-To learn more about Next.js, take a look at the following resources:
+- **Brand Archetype (The Creator):** The exhibit embodies the "Creator" archetype, focusing on innovation, structure, and turning abstract technological visions into tangible, understandable history.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Method of Persuasion (Consistency):** Leveraging Cialdini’s principle of Consistency, the user journey is designed with predictable, uniform navigation patterns. As users successfully interact with the first artifact, the consistent UI encourages them to commit to exploring the rest of the exhibit.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## AI Agentic Orchestration Process
 
-## Deploy on Vercel
+Artificial Intelligence was heavily used throughout the lifecycle of this project as a collaborative partner. The orchestration process involved these stages:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Ideation & Strategy:** AI was used to brainstorm and select the three core artifacts that best represented the evolution of computing.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Development Assistance:** AI assisted in creating the React and Next.js components, as well as rapidly producing the Tailwind CSS layouts to match the desired Swiss design design.
+
+3. **Simulated Expert Review:** Once the prototype was built, I promped the AI to adopt the persona of a **"Smithsonian Curator."** In this role, the AI reviewed the site's flow, layout, and educational copy, providing critical feedback on how to improve the pacing and professional tone of the exhibit.
+
+## Tech Stack
+
+- React
+- Next.js
+- Tailwind CSS
