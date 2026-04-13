@@ -1,10 +1,10 @@
-package CS113.Labs;
-
 // *******************************************************************
 //   Coin.java            Author: Lewis and Loftus
 //
 //   Represents a coin with two sides that can be flipped.
 // *******************************************************************
+
+
 
 public class Coin {
 

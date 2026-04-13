@@ -138,3 +138,68 @@ for (int row = 0; row < table.length; row++)
 }
 
 ```
+
+# Chapter 9 Inhertence
+
+"Inheritance allows a software developer to derive a new class from an existing one"
+
+- The existing class is called the parent class, or superclass, or base class
+
+- The derived class is called the child class or subclass
+
+- As the name implies, the child inherits characteristics of the parent
+
+- That is, the child class inherits the methods and data defined by the parent class
+
+```Java
+super("parent name" ) -> // calls the parent function
+
+super.message(); -> // calls the parent's method
+
+final // can NOT be ovveridden unlike 'super', constant method
+
+```
+
+- only ONE parent per child, childs can share a parent
+
+# Chapter 12 RECURSSION
+
+"uses the definition in the explainantion"
+
+method calling itself
+
+### Factorial example
+
+```java
+5! //5 factorial
+
+5*4*3*2*1
+//NOT recursive, uses multiplcation/addition
+
+5! = 5*4!
+n! = n*(n-1)
+// recursive bc uses same operator
+```
+
+### Java example
+
+```java
+//print the message 'num' amnt of times
+
+public static void printMessage(int num) {
+    if (num <= 0) {
+        return; //do nothing
+    } else {
+        System.out.println("Welcome to CS113");
+        printMessage(num - 1);
+    }
+}
+
+//counting amnt of digits
+
+public int numDigits(int num) {
+    if (num < 10) return (1);
+    //a number < 10  has only one digit
+    else return (1 + numDigits(num / 10));
+}
+```
