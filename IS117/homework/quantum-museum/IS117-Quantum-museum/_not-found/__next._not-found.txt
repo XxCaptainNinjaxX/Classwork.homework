@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[82244,["/projects/IS117-Quantum-museum/_next/static/chunks/0d.xaxm1ruxz~.js","/projects/IS117-Quantum-museum/_next/static/chunks/020uzm5mf2yry.js"],"default"]
+3:I[41581,["/projects/IS117-Quantum-museum/_next/static/chunks/0d.xaxm1ruxz~.js","/projects/IS117-Quantum-museum/_next/static/chunks/020uzm5mf2yry.js"],"default"]
+4:[]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"sQdCayBvYd3NZKC7Sjg8t"}

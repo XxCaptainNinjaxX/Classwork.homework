@@ -2,6 +2,8 @@
 
 **IS 117 - Museum Exhibit Project**
 
+Live Link -> https://robriguez.com/projects/IS117-Quantum-museum/
+
 ## Project Overview
 
 "Beyond Binary" is an interactive digital museum exhibit exploring the large leap from classical microcomputing to the future of quantum technology. This exhibit guides users through three pivotal artifacts:
