@@ -94,6 +94,8 @@ case 10:
 
 ```
 
+---
+
 # Chapter 8 Arrays
 
 ## 2d arrays
@@ -139,6 +141,8 @@ for (int row = 0; row < table.length; row++)
 
 ```
 
+---
+
 # Chapter 9 Inhertence
 
 "Inheritance allows a software developer to derive a new class from an existing one"
@@ -161,6 +165,28 @@ final // can NOT be ovveridden unlike 'super', constant method
 ```
 
 - only ONE parent per child, childs can share a parent
+
+---
+
+# Chapter 10 Polymorphism
+
+"Having many forms"
+
+- can refer to diffrent objects
+
+## Late binding
+
+## Polymorphism via Inheritence
+
+## Polymorphism via Interfaces
+
+## Sorting
+
+## Searching
+
+## Exeptions
+
+---
 
 # Chapter 12 RECURSSION
 
